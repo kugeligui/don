@@ -1,0 +1,32 @@
+{
+  "account": "keitel",
+  "iwallet": {
+    "path": "",
+    //种子节点列表 https://developers.iost.io/docs/zh-CN/4-running-iost-node/Deployment.html#%E7%A7%8D%E5%AD%90%E8%8A%82%E7%82%B9%E5%88%97%E8%A1%A8
+    "server": "18.209.137.246:30002"
+  },
+  "swap": {
+    //交易滑点5%
+    "slippageTolerance": 0.05,
+    "contractAddress": "ContractL3GFG4Wo5XmpUpoJ8LctTA3VFbwTi9x9AEWDKNzg1VR"
+  },
+  "tokens": {
+    "iost": "ContractAo7yETD3rrFCwUJ7VR9yD7AvvjEXegGkae1bbx6dLJnn",
+    "husd": "ContractB6RmuvfZy2YskreyMaewsdUSPdvhjNSqueZdbuhNS7AE",
+    "don": "ContractCvzzr8aGiVhMKYADQxQakL1S9kisumkDgQMDKQx29Skq",
+    "iwbnb": "Contract4NpXpwmkYD3ZC6wknspcdPunCTH5hxeBUSrvaRYdfMV4",
+    "iwbtc": "Contract3QmmUoyWSkDtD6idG2yPmL24XJrvsr8f5CZ9PwFkWCjX",
+    "iwbly": "ContractFBm86pVGRdqPEPPozpc9Bv7whCcfYKujg9F3reMfHzbq"
+  },
+  "lptokens": {
+    "iost_husd_lp": "ContractHzLZDad63bGyRG4gAJrcaAU8tmdrYKEAMPeQywgp7hyG",
+    "iwbnb_husd_lp": "ContractCWZ9wTtdzrHwoWgphmQiEqqCQDD6P3kDMo7JW3cMm7B1",
+    "don_husd_lp": "Contract6rUm6SRqB8gBDxMJomKJAzTyHNn28BCW3gPkFKUJUVFQ",
+    "don_iost_lp": "Contract6cvQnsse1M53kF8aq65aCWMPyE77ptA3FVw6ZNZN4DU2"
+  },
+  "staking": [ "husd", "don", "iwbnb", "iwbnb_husd_lp" ],
+  //"staking": [ "iwbnb" ],
+  "bscAddress": "0x8399EEb143379004D4Ad9aF816a01C8242FDD784",
+  //检测合约更新的时间频率，单位：秒
+  "interval": 30
+}
