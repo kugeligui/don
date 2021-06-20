@@ -25,8 +25,7 @@
     "don_iost_lp": "Contract6cvQnsse1M53kF8aq65aCWMPyE77ptA3FVw6ZNZN4DU2"
   },
   "staking": [ "husd", "don", "iwbnb", "iwbnb_husd_lp" ],
-  //"staking": [ "iwbnb" ],
-  "bscAddress": "0x8399EEb143379004D4Ad9aF816a01C8242FDD784",
+  "bscAddress": "0x0000000000000000000000000000",
   //检测合约更新的时间频率，单位：秒
   "interval": 30
 }
