@@ -1,5 +1,4 @@
-﻿using DON.Constent;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace DON.Model
 {
@@ -8,31 +7,6 @@ namespace DON.Model
     /// </summary>
     public class LiquidityModel
     {
-        /// <summary>
-        /// IWBNB_HUSD
-        /// </summary>
-        public readonly static LiquidityModel IWBNB_HUSD = new LiquidityModel(LPConstent.IWBNB_HUSD_LP_NAME, LPConstent.IWBNB_NAME, LPConstent.HUSD_NAME, DONContract.IWBNB_HUSD_LP);
-
-        /// <summary>
-        /// DON_HUSD
-        /// </summary>
-        public readonly static LiquidityModel DON_HUSD = new LiquidityModel(LPConstent.DON_HUSD_LP_NAME, LPConstent.DON_NAME, LPConstent.HUSD_NAME, DONContract.DON_HUSD_LP);
-
-        /// <summary>
-        /// DON_ISOT
-        /// </summary>
-        public readonly static LiquidityModel DON_ISOT = new LiquidityModel(LPConstent.DON_ISOT_LP_NAME, LPConstent.DON_NAME, LPConstent.IOST_NAME, DONContract.DON_IOST_LP);
-
-        /// <summary>
-        /// IOST_HUSD
-        /// </summary>
-        public readonly static LiquidityModel IOST_HUSD = new LiquidityModel(LPConstent.IOST_HUSD_LP_NAME, LPConstent.IOST_NAME, LPConstent.HUSD_NAME, DONContract.IOST_HUSD_LP);
-
-        /// <summary>
-        /// IOST_HUSD
-        /// </summary>
-        public readonly static LiquidityModel IWBNB = new LiquidityModel(LPConstent.IWBNB_NAME, LPConstent.IWBNB_NAME, null, DONContract.IWBNB);
-
         /// <summary>
         /// 名称
         /// </summary>
